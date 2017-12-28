@@ -1,9 +1,23 @@
-.container > div {
+.header > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-    color: #ffeead;
+    font-size: 1.5em;
+    color: white;
+  }
+  .container > div {
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    font-size: 1em;
+    color: black;
+  }
+  .container2 > div {
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    font-size: 1em;
+    color: black;
   }
   
   html, body {
@@ -11,18 +25,50 @@
     margin: 10px;
   }
   
-  .container > div:nth-child(1n) {
-    background-color: #96ceb4;	
+  .header > div:nth-child(1n) {
+    background-color: navy;	
+  }
+  
+  .header > div:nth-child(3n) {
+    background-color: navy;
+  }
+  
+  .header > div:nth-child(2n) {
+    background-color: navy;
+  }
+  
+  .header > div:nth-child(4n) {
+    background-color: navy;
+  }
+  
+    .container > div:nth-child(1n) {
+    background-color: white;	
   }
   
   .container > div:nth-child(3n) {
-    background-color: #88d8b0;
+    background-color: white;
   }
   
   .container > div:nth-child(2n) {
-    background-color: #ff6f69;
+    background-color: white;
   }
   
   .container > div:nth-child(4n) {
-    background-color: #ffcc5c;
+    background-color: white;
+  }
+  
+    .container2 > div:nth-child(1n) {
+    background-color: silver;	
+  }
+  
+  .container2 > div:nth-child(3n) {
+    background-color: silver;
+  }
+  
+  .container2 > div:nth-child(2n) {
+    background-color: silver;
+  }
+  
+  .container2 > div:nth-child(4n) {
+    background-color: silver;
   }
